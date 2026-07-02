@@ -57,6 +57,8 @@
       secClosing: '写在最后',
       closingP1: '这些页面都是<strong>爱发电</strong>做的 side project：工科之余，把读过的书、看过的剧、想分享的内容，做成能发给朋友的小链接。',
       closingP2: '如果你喜欢文学，欢迎关注微信公众号 <strong>秋轩诗抄</strong>，一起徜徉文字的海洋。',
+      wechatQrAlt: '秋轩诗抄微信公众号二维码',
+      wechatQrCaption: '扫码关注微信公众号 <strong>秋轩诗抄</strong>',
       footerNote: '欢迎 Star、Fork 与分享。如有兴趣合作或者交流请通过邮箱联系。',
       langLabel: '语言'
     },
@@ -105,6 +107,8 @@
       secClosing: 'Closing Words',
       closingP1: 'These pages are <strong>labors of love</strong>: outside engineering work, I turn books, shows, and ideas into shareable links for friends.',
       closingP2: 'If you enjoy literature, follow my WeChat public account <strong>秋轩诗抄</strong> (Qiuxuan Poetry) and wander the world of words together.',
+      wechatQrAlt: 'WeChat QR code for 秋轩诗抄 official account',
+      wechatQrCaption: 'Scan to follow <strong>秋轩诗抄</strong> on WeChat',
       footerNote: 'Star, fork, and share welcome. For collaboration or chat, reach me by email.',
       langLabel: 'Language'
     },
@@ -153,6 +157,8 @@
       secClosing: 'Palabras finales',
       closingP1: 'Estas páginas son un <strong>proyecto personal</strong>: fuera de la ingeniería, convierto lecturas e ideas en enlaces para compartir.',
       closingP2: 'Si te gusta la literatura, sigue mi cuenta de WeChat <strong>秋轩诗抄</strong>.',
+      wechatQrAlt: 'Código QR de la cuenta oficial de WeChat 秋轩诗抄',
+      wechatQrCaption: 'Escanea para seguir <strong>秋轩诗抄</strong> en WeChat',
       footerNote: 'Star, fork y compartir son bienvenidos. Escríbeme por correo para colaborar.',
       langLabel: 'Idioma'
     },
@@ -201,6 +207,8 @@
       secClosing: 'Palavras finais',
       closingP1: 'Estas páginas são um <strong>projeto pessoal</strong>: fora da engenharia, transformo leituras e ideias em links compartilháveis.',
       closingP2: 'Se gosta de literatura, siga minha conta WeChat <strong>秋轩诗抄</strong>.',
+      wechatQrAlt: 'QR code da conta oficial WeChat 秋轩诗抄',
+      wechatQrCaption: 'Escaneie para seguir <strong>秋轩诗抄</strong> no WeChat',
       footerNote: 'Star, fork e compartilhamento são bem-vindos. Entre em contato por e-mail.',
       langLabel: 'Idioma'
     },
@@ -249,6 +257,8 @@
       secClosing: 'Mot de la fin',
       closingP1: 'Ces pages sont un <strong>projet passion</strong> : en dehors de l\'ingénierie, je transforme lectures et idées en liens à partager.',
       closingP2: 'Si vous aimez la littérature, suivez mon compte WeChat <strong>秋轩诗抄</strong>.',
+      wechatQrAlt: 'Code QR du compte officiel WeChat 秋轩诗抄',
+      wechatQrCaption: 'Scannez pour suivre <strong>秋轩诗抄</strong> sur WeChat',
       footerNote: 'Star, fork et partage bienvenus. Contactez-moi par e-mail pour collaborer.',
       langLabel: 'Langue'
     },
@@ -297,6 +307,8 @@
       secClosing: 'Вместо заключения',
       closingP1: 'Эти страницы—<strong>любительский проект</strong>: помимо инженерии я превращаю прочитанное и увиденное в ссылки для друзей.',
       closingP2: 'Если любите литературу, подпишитесь на мой WeChat <strong>秋轩诗抄</strong>.',
+      wechatQrAlt: 'QR-код официального аккаунта WeChat 秋轩诗抄',
+      wechatQrCaption: 'Отсканируйте, чтобы подписаться на <strong>秋轩诗抄</strong> в WeChat',
       footerNote: 'Star, fork и репосты приветствуются. Для сотрудничества пишите на почту.',
       langLabel: 'Язык'
     }
@@ -631,6 +643,9 @@
       var key = el.getAttribute('data-i18n-html');
       if (t[key] != null) el.innerHTML = t[key];
     });
+
+    var qrImg = document.getElementById('wechat-qr-img');
+    if (qrImg && t.wechatQrAlt) qrImg.alt = t.wechatQrAlt;
 
     renderTableBody('edu-body', DATA.education[lang], [0, 1, 2, 3]);
     renderTableBody('honor-body', DATA.honors[lang], [0, 1]);
