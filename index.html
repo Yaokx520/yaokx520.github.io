@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="浙江大学航空航天学院研究生 · 旋翼多学科优化 · 文学与科普 Web 作品" />
+  <title>姚轲轩 · Yaokx520</title>
+  <style>
+    :root {
+      --bg: #0c1118;
+      --bg2: #121a24;
+      --card: rgba(22, 30, 42, 0.92);
+      --ink: #eef2f7;
+      --muted: #9aa8bc;
+      --line: rgba(148, 163, 184, 0.18);
+      --accent: #c9a227;
+      --accent2: #5b9fd4;
+      --shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background:
+        radial-gradient(circle at 10% 0%, rgba(91, 159, 212, 0.12), transparent 32%),
+        radial-gradient(circle at 90% 10%, rgba(201, 162, 39, 0.10), transparent 28%),
+        linear-gradient(180deg, var(--bg), #070a0f 70%);
+      line-height: 1.65;
+    }
+    a { color: var(--accent2); text-decoration: none; }
+    a:hover { color: var(--accent); }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 24px 16px 64px; }
+    .topbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      flex-wrap: wrap; margin-bottom: 20px;
+    }
+    .lang-switch {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      padding: 6px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255,255,255,0.03);
+    }
+    .lang-btn {
+      border: 0; background: transparent; color: var(--muted);
+      padding: 8px 12px; border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600;
+    }
+    .lang-btn.active, .lang-btn:hover { background: rgba(201, 162, 39, 0.16); color: var(--accent); }
+    .hero {
+      background: var(--card); border: 1px solid var(--line); border-radius: calc(var(--radius) + 4px);
+      padding: 32px 28px; box-shadow: var(--shadow); position: relative; overflow: hidden;
+    }
+    .hero::after {
+      content: ""; position: absolute; right: -40px; top: -40px; width: 180px; height: 180px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(201,162,39,.18), transparent 70%); pointer-events: none;
+    }
+    .eyebrow {
+      display: inline-block; padding: 6px 12px; border-radius: 999px;
+      background: rgba(201,162,39,.12); color: var(--accent); font-size: 12px; font-weight: 700; letter-spacing: .08em;
+    }
+    .hero h1 { margin: 14px 0 4px; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.1; }
+    .hero-handle { color: var(--muted); font-size: 1.05rem; margin-bottom: 10px; }
+    .hero-tagline { margin: 0; max-width: 720px; color: var(--muted); font-size: 1.02rem; }
+    .hero-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 16px; border-radius: 12px; border: 1px solid var(--line);
+      background: rgba(255,255,255,.04); color: var(--ink); font-weight: 700; font-size: 14px;
+    }
+    .btn.primary { background: linear-gradient(135deg, rgba(201,162,39,.95), rgba(176,134,36,.88)); color: #1a1408; border-color: transparent; }
+    section { margin-top: 22px; }
+    .card {
+      background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
+      padding: 22px 20px; box-shadow: var(--shadow);
+    }
+    .card h2 {
+      margin: 0 0 14px; font-size: 1.25rem; display: flex; align-items: center; gap: 10px;
+    }
+    .card h2::before {
+      content: ""; width: 4px; height: 1.1em; border-radius: 2px; background: var(--accent);
+    }
+    .about p { margin: 0 0 12px; color: var(--muted); }
+    .about p:last-child { margin-bottom: 0; }
+    .contact-grid { display: grid; gap: 10px; }
+    .contact-item {
+      display: grid; grid-template-columns: 100px 1fr; gap: 8px; align-items: center;
+      padding: 10px 12px; border-radius: 12px; background: rgba(255,255,255,.03); border: 1px solid var(--line);
+    }
+    .contact-item span:first-child { color: var(--muted); font-size: 14px; }
+    .table-wrap { overflow-x: auto; margin: 0 -4px; }
+    table { width: 100%; border-collapse: collapse; min-width: 560px; font-size: 14px; }
+    th, td { padding: 10px 12px; border-bottom: 1px solid var(--line); text-align: left; vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; font-size: 13px; }
+    tr:last-child td { border-bottom: 0; }
+    .exp-card, .project-card {
+      padding: 16px; border-radius: 14px; border: 1px solid var(--line); background: rgba(255,255,255,.02);
+    }
+    .exp-card + .exp-card, .project-card + .project-card { margin-top: 12px; }
+    .exp-head { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+    .exp-head h3 { margin: 0; font-size: 1rem; }
+    .exp-period { color: var(--muted); font-size: 13px; }
+    .exp-tag {
+      flex-shrink: 0; padding: 4px 10px; border-radius: 999px; font-size: 12px; font-weight: 700;
+      background: rgba(91,159,212,.12); color: var(--accent2);
+    }
+    .exp-card ul { margin: 0; padding-left: 18px; color: var(--muted); }
+    .exp-card li + li { margin-top: 6px; }
+    .projects-intro { color: var(--muted); margin: 0 0 14px; }
+    .project-card { display: grid; grid-template-columns: 52px 1fr; gap: 14px; align-items: start; }
+    .project-icon { font-size: 2rem; line-height: 1; }
+    .project-body h3 { margin: 0 0 4px; font-size: 1.05rem; }
+    .project-body h3 a { color: var(--ink); }
+    .project-tagline { margin: 0 0 6px; color: var(--accent); font-size: 14px; font-weight: 600; }
+    .project-desc { margin: 0 0 10px; color: var(--muted); font-size: 14px; }
+    .project-links { display: flex; flex-wrap: wrap; gap: 12px; font-size: 14px; font-weight: 600; }
+    .mini-link { color: var(--accent) !important; }
+    .tech-grid { display: grid; gap: 12px; }
+    .tech-item {
+      padding: 14px; border-radius: 12px; border: 1px solid var(--line); background: rgba(255,255,255,.02);
+    }
+    .tech-item strong { display: block; margin-bottom: 6px; color: var(--accent); font-size: 14px; }
+    .tech-item span { color: var(--muted); font-size: 14px; }
+    .closing p { margin: 0 0 10px; color: var(--muted); }
+    .ency-note {
+      margin-top: 12px; padding: 12px 14px; border-radius: 12px;
+      border: 1px dashed var(--line); color: var(--muted); font-size: 13px;
+    }
+    footer {
+      margin-top: 28px; text-align: center; color: var(--muted); font-size: 13px;
+    }
+    @media (max-width: 640px) {
+      .hero { padding: 24px 18px; }
+      .contact-item { grid-template-columns: 1fr; gap: 2px; }
+      .project-card { grid-template-columns: 1fr; }
+      .project-icon { font-size: 1.6rem; }
+      .exp-head { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <span class="eyebrow" data-i18n="langLabel">语言</span>
+      <div id="lang-switcher" class="lang-switch" role="group" aria-label="Language"></div>
+    </div>
+
+    <header class="hero">
+      <span class="eyebrow" data-i18n="eyebrow">Personal Homepage</span>
+      <h1 data-i18n="heroName">姚轲轩</h1>
+      <div class="hero-handle">@<span data-i18n="heroHandle">Yaokx520</span></div>
+      <p class="hero-tagline" data-i18n="heroTagline">浙江大学航空航天学院机械专业研究生 · 旋翼多学科优化 · 文学与科普内容创作</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://github.com/yaokx520" target="_blank" rel="noopener" data-i18n="btnGitHub">GitHub</a>
+        <a class="btn" href="mailto:12324032@zju.edu.cn" data-i18n="btnEmail">Email</a>
+      </div>
+    </header>
+
+    <section class="card about">
+      <h2 data-i18n="secAbout">关于我</h2>
+      <p data-i18n-html="aboutP1"></p>
+      <p data-i18n-html="aboutP2"></p>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secContact">联系方式</h2>
+      <div class="contact-grid">
+        <div class="contact-item"><span data-i18n="lblPhone">电话</span><span>(+86) 195-5010-2257</span></div>
+        <div class="contact-item"><span data-i18n="lblEmail">邮箱</span><a href="mailto:12324032@zju.edu.cn">12324032@zju.edu.cn</a></div>
+        <div class="contact-item"><span data-i18n="lblGitHub">GitHub</span><a href="https://github.com/yaokx520" target="_blank" rel="noopener">@yaokx520</a></div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secEducation">教育经历</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="thPeriod">时间</th>
+              <th data-i18n="thSchool">学校</th>
+              <th data-i18n="thMajor">院系 / 专业</th>
+              <th data-i18n="thDegree">学位</th>
+            </tr>
+          </thead>
+          <tbody id="edu-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secHonors">荣誉奖励</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th data-i18n="thPeriod">时间</th><th data-i18n="thHonor">荣誉</th></tr></thead>
+          <tbody id="honor-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secResearch">科研与项目经历</h2>
+      <div id="research-list"></div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secOther">其他经历</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="thPeriod">时间</th>
+              <th data-i18n="thOrg">组织</th>
+              <th data-i18n="thRole">职务</th>
+              <th data-i18n="thSummary">概要</th>
+            </tr>
+          </thead>
+          <tbody id="other-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secProjects">开源项目与在线作品</h2>
+      <p class="projects-intro" data-i18n-html="projectsIntro"></p>
+      <div id="projects-list"></div>
+      <p class="ency-note" id="ency-note"></p>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secOverview">项目一览</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-i18n="thProject">项目</th>
+              <th data-i18n="thOneLiner">一句话</th>
+              <th data-i18n="thLive">在线体验</th>
+              <th data-i18n="thSource">源码</th>
+            </tr>
+          </thead>
+          <tbody id="overview-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2 data-i18n="secTech">技术栈</h2>
+      <div class="tech-grid">
+        <div class="tech-item">
+          <strong data-i18n="techResearch">科研方向</strong>
+          <span data-i18n="techResearchVal">Python · CATIA · COMSOL · MATLAB · 多目标优化 · 概念设计</span>
+        </div>
+        <div class="tech-item">
+          <strong data-i18n="techWeb">Web 作品</strong>
+          <span data-i18n="techWebVal">纯静态 HTML / CSS / JavaScript · GitHub Pages · 前端国际化（i18n）</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card closing">
+      <h2 data-i18n="secClosing">写在最后</h2>
+      <p data-i18n-html="closingP1"></p>
+      <p data-i18n-html="closingP2"></p>
+    </section>
+
+    <footer><p data-i18n="footerNote">欢迎 Star、Fork 与分享。如有兴趣合作或者交流请通过邮箱联系。</p></footer>
+  </div>
+  <script src="i18n.js"></script>
+</body>
+</html>
