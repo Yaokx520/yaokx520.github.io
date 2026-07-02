@@ -55,7 +55,7 @@
       techResearchVal: 'Python · CATIA · COMSOL · MATLAB · 多目标优化 · 概念设计',
       techWebVal: '纯静态 HTML / CSS / JavaScript · GitHub Pages · 前端国际化（i18n）',
       secClosing: '写在最后',
-      closingP1: '这些页面都是<strong>爱发电</strong>做的 side project：工科之余，把读过的书、看过的剧、想分享的内容，做成能发给朋友的小链接。',
+      closingP1: '这些页面都是<strong>用爱发电</strong>做的 side project：工科之余，把读过的书、看过的剧、想分享的内容，做成能发给朋友的小链接。',
       closingP2: '如果你喜欢文学，欢迎关注微信公众号 <strong>秋轩诗抄</strong>，一起徜徉文字的海洋。',
       wechatQrAlt: '秋轩诗抄微信公众号二维码',
       wechatQrCaption: '扫码关注微信公众号 <strong>秋轩诗抄</strong>',
