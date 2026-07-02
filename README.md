@@ -4,7 +4,7 @@
 [![Email](https://img.shields.io/badge/Email-12324032%40zju.edu.cn-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:12324032@zju.edu.cn)
 ---
 ## 关于我
-我是**姚轲轩**，浙江大学航空航天学院机械专业在读研究生，本科毕业于南方科技大学航空航天工程专业，曾赴莫斯科航空学院交流研修。研究方向聚焦**旋翼飞行器多学科优化设计**与建模仿真，日常也做一点**静态 Web 小应用**——把文学气质、古典诗心、群聊整活和少儿科普，做成打开即用的 H5 页面。
+我是**姚轲轩**，浙江大学航空航天学院机械专业在读研究生，本科毕业于南方科技大学航空航天工程专业，曾赴莫斯科航空学院交流研修。研究方向聚焦**旋翼飞行器多学科优化设计**与建模仿真，日常也做一点**静态 Web 小应用**——把文学气质、古典诗心、趣味测试和少儿科普，做成打开即用的 H5 页面。
 工科做模型与算法，人文做内容与传播；两者在我这里并不冲突。
 ---
 ## 联系方式
@@ -37,8 +37,8 @@
 - 运用 EGO 全局优化算法对 NASA 四旋翼基准飞行器进行优化，并开展研究
 ### 飞行器整机建模与仿真分析 · 科研项目
 *2022.09 – 2023.09*
-- 熟练使用 CATIA 对飞行器进行三维建模，并用笛卡尔网格对整机进行仿真
-- 使用 Python 批量处理数据，学习撰写项目报告并完成项目验收与答辩
+- 熟练使用 CATIA 对飞行器进行三维建模，并对整机进行仿真
+- 使用 Python 批量处理数据，学习撰写项目报告并完成项目验收
 ### 声学超表面材料特性研究 · 毕业设计
 *2021.09 – 2022.06*
 - 搭建声学实验平台，使用 MATLAB 进行数据处理，设计并完成一系列声学实验
@@ -111,7 +111,7 @@
 |------|--------|----------|------|
 | 文学气质小测 | 66 作家 · 六维文学气质 | [打开](https://yaokx520.github.io/Literary-personality-test/) | [Literary-personality-test](https://github.com/Yaokx520/Literary-personality-test) |
 | 诗心小测 | 66 诗人 · 六维诗心 | [打开](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) | [Chinese_poet_personality](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) |
-| 新三国人格测试 | 16 人物 · 权谋判词 | [打开](https://yaokx520.github.io/HOMM3/sanguo/) | [HOMM3](https://github.com/Yaokx520/HOMM3) |
+| 新三国人格测试 | 16 人物 · 新三语录 | [打开](https://yaokx520.github.io/HOMM3/sanguo/) | [HOMM3](https://github.com/Yaokx520/HOMM3) |
 | 十万个为什么百科 | 六类科普 PDF 导航 | [打开](https://yaokx520.github.io/Encyclopedia/) | [Encyclopedia](https://github.com/Yaokx520/Encyclopedia) |
 ---
 ## 技术栈
