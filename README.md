@@ -122,4 +122,6 @@
 这些页面都是**爱发电**做的 side project：工科之余，把读过的书、看过的剧、想分享的内容，做成能发给朋友的小链接。
 如果你喜欢文学，欢迎关注微信公众号 **秋轩诗抄**，一起徜徉文字的海洋。
 ---
+<img width="430" height="430" alt="公众号2" src="https://github.com/user-attachments/assets/294c15b0-33b0-430e-8ce4-87ada7d145d3" />
+
 *欢迎 Star、Fork 与分享。如有兴趣合作或者交流请通过邮箱联系。*
