@@ -99,8 +99,10 @@
 | 科技 | 科学技术、发明与生活科技 |
 | 人体 | 人体结构、健康常识、生理现象 |
 | 宇宙 | 天文、行星、太空探索 |
+|------|----------|
 适合日常阅读、亲子共读与课外拓展。站内支持在线打开与下载 PDF。
 | 入口 | 链接 |
+|------|----------|
 | 十万个为什么百科 | https://yaokx520.github.io/Encyclopedia/ |
 |------|----------|
 > **内容说明**：PDF 仅供个人学习与阅读导航；不主张版权，如有异议请联系下架。
@@ -109,7 +111,7 @@
 | 项目 | 一句话 | 在线体验 | 源码 |
 |------|--------|----------|------|
 | 文学气质小测 | 66 作家 · 六维文学气质 | [打开](https://yaokx520.github.io/Literary-personality-test/) | [Literary-personality-test](https://github.com/Yaokx520/Literary-personality-test) |
-| 诗心小测 | 66 诗人 · 六维诗心 | [打开](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) | 同上 |
+| 诗心小测 | 66 诗人 · 六维诗心 | [打开](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) | [Chinese_poet_personality](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) |
 | 新三国人格测试 | 16 人物 · 权谋判词 | [打开](https://yaokx520.github.io/HOMM3/sanguo/) | [HOMM3](https://github.com/Yaokx520/HOMM3) |
 | 十万个为什么百科 | 六类科普 PDF 导航 | [打开](https://yaokx520.github.io/Encyclopedia/) | [Encyclopedia](https://github.com/Yaokx520/Encyclopedia) |
 ---
