@@ -99,12 +99,11 @@
 | 科技 | 科学技术、发明与生活科技 |
 | 人体 | 人体结构、健康常识、生理现象 |
 | 宇宙 | 天文、行星、太空探索 |
-|------|----------|
+
 适合日常阅读、亲子共读与课外拓展。站内支持在线打开与下载 PDF。
 | 入口 | 链接 |
 |------|----------|
 | 十万个为什么百科 | https://yaokx520.github.io/Encyclopedia/ |
-|------|----------|
 > **内容说明**：PDF 仅供个人学习与阅读导航；不主张版权，如有异议请联系下架。
 ---
 ## 项目一览
@@ -116,8 +115,8 @@
 | 十万个为什么百科 | 六类科普 PDF 导航 | [打开](https://yaokx520.github.io/Encyclopedia/) | [Encyclopedia](https://github.com/Yaokx520/Encyclopedia) |
 ---
 ## 技术栈
-**科研方向：** Python · PyQt5 · CATIA · COMSOL · MATLAB · EGO 优化算法
-**Web 作品：** 纯静态 HTML / CSS / JavaScript · GitHub Pages · 多语言 i18n · 分享链与结果页深链
+**科研方向：** Python · CATIA · COMSOL · MATLAB · 多目标优化 · 概念设计
+**Web 作品：** 纯静态 HTML / CSS / JavaScript · GitHub Pages · 前端国际化（i18n）
 ---
 ## 写在最后
 这些页面都是**爱发电**做的 side project：工科之余，把读过的书、看过的剧、想分享的内容，做成能发给朋友的小链接。
