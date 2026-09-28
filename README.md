@@ -57,7 +57,7 @@
 | 2018.09 – 2020.09 | 南方科技大学校团委宣传部 | **干事** | 负责校团委公众号新闻稿撰写并参与军宣工作；获 **2018 年校团委优秀部员奖** |
 ---
 ## 开源项目与在线作品
-以下是我维护的四套静态 Web 项目，均部署于 GitHub Pages，**无需登录、打开即用**，适合微信 / QQ 分享。
+以下是我维护的五套静态 Web 项目，均部署于 GitHub Pages，**无需登录、打开即用**，适合微信 / QQ 分享。
 ### 📚 [文学气质小测](https://yaokx520.github.io/Literary-personality-test/) · [仓库](https://github.com/Yaokx520/Literary-personality-test)
 **测测你更像哪个文学家** — 不是考文学常识，而是看气质、叙事方式与精神底色。
 - **66 位**中外文学家 · **36 道**情境题中随机 **10–16 题**
@@ -105,6 +105,24 @@
 |------|----------|
 | 十万个为什么百科 | https://yaokx520.github.io/Encyclopedia/ |
 > **内容说明**：PDF 仅供个人学习与阅读导航；不主张版权，如有异议请联系下架。
+> ### 🎮 [Just-play · 小游戏合集](https://yaokx520.github.io/Just-play/) · [仓库](https://github.com/Yaokx520/Just-play)
+面向即开即玩的 **纯前端小游戏合集站**，零安装、零登录，打开浏览器就能玩，全部游戏单文件自包含。
+| 游戏 | 特点 |
+|------|------|
+| 疯狂小人大战 | 同屏乱斗，火柴人画风，道具随机掉落 |
+| 战争进化史 | 五时代进化肉鸽塔防，随机词缀塔 + 遗物叠加 |
+| 贪吃蛇 | 经典街机手感，加速冲刺与穿墙模式 |
+| 2048 | 数字合成，本地最高分记录 |
+| 打砖块 | 弹球反弹物理，道具砖与连击加分 |
+| 飞机大战 | 纵版弹幕射击，Boss 战与火力升级 |
+| 记忆翻牌 | 卡牌配对，计时挑战与步数评级 |
+| 躲避冲刺 | 无尽跑酷，障碍随机生成，越跑越快 |
+
+适合通勤摸鱼、碎片时间放松与朋友对战。站内支持键盘与触屏双操作，进度自动保存。
+| 入口 | 链接 |
+|------|------|
+| Just-play 合集首页 | https://yaokx520.github.io/Just-play/ |
+> **使用说明**：所有游戏均为开源学习项目，免费游玩；存档保存在本地浏览器，清除缓存会重置进度。
 ---
 ## 项目一览
 | 项目 | 一句话 | 在线体验 | 源码 |
@@ -113,6 +131,7 @@
 | 诗心小测 | 66 诗人 · 六维诗心 | [打开](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) | [Chinese_poet_personality](https://yaokx520.github.io/Literary-personality-test/chinese_poet_personality_test.html) |
 | 新三国人格测试 | 16 人物 · 新三语录 | [打开](https://yaokx520.github.io/HOMM3/sanguo/) | [HOMM3](https://github.com/Yaokx520/HOMM3) |
 | 十万个为什么百科 | 六类科普 PDF 导航 | [打开](https://yaokx520.github.io/Encyclopedia/) | [Encyclopedia](https://github.com/Yaokx520/Encyclopedia) |
+| Just-play | 八款即开即玩小游戏合集 | [打开](https://yaokx520.github.io/Just-play/) | [Just-play](https://github.com/Yaokx520/Just-play) |
 ---
 ## 技术栈
 **科研方向：** Python · CATIA · COMSOL · MATLAB · 多目标优化 · 概念设计
